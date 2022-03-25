@@ -1,0 +1,213 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+h1{
+    line-height: 50px;
+    text-align: center;
+    font-family: fantasy;
+    color: rgba(160, 13, 13, 0.856);
+    letter-spacing: 3px;
+  
+}
+.conteneSeccion{
+    margin: auto;
+    margin-top:70px;
+    height: 320px;
+    width: 850px;
+   
+    display: flex;
+    flex-direction: row;
+    
+}
+.pokeiz{
+border-top-left-radius: 100%;
+border-bottom-left-radius: 100%;
+background-color: red;
+height: 320px;
+width: 110px;
+
+}
+.lineaBlanca{
+   
+    background-color: rgb(247, 248, 172);
+    height: 50px;
+    width: 100%;
+    position:relative;
+    top:80px;
+}
+.foco{
+    background-color: yellow;
+    border-radius: 100%;
+    height: 50px;
+    width: 50px;
+    position:relative;
+    top:50px;
+    left:20px
+}
+.focodos{
+    background-color: rgb(255, 255, 255);
+    border-radius: 100%;
+    height: 20px;
+    width: 20px;
+    position:relative;
+    left:7px;
+    top:4px;
+    
+}
+.pokeder{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background-color: red;
+    height: 320px;
+    width: 110px; 
+}
+.contenedorPrimero{
+    margin: auto;
+    display:flex;
+    background-color: red;
+    height: 320px;
+    width: 670px;
+}
+.ladoIzquierdo{
+display: flex;
+flex-direction: column;
+
+}
+
+.buscarPokemon#imaPoke{
+    margin: 2px;
+    padding-top: 20px;
+    background-color: rgb(96, 196, 162);
+}
+
+.buscarPokemon{
+    padding: 2px;
+    display:flex;
+    flex-direction: column;
+    /*background-color: yellow;*/
+    height: 310px;
+    box-shadow: inset 1px 1px 5px 2px rgba(0, 0, 0, 0.514),
+    inset 1px 1px 10px 1px rgba(255, 255, 255, 0.479);
+    box-shadow:1px 1px 5px 2px rgba(0, 0, 0, 0.514),
+    1px 1px 10px 1px rgba(255, 255, 255, 0.514);
+
+    
+}
+
+.buscarPokemon#busqueda{
+    margin: 2px;
+    height:100px;
+    width: 250px;
+    
+}
+.buscarPokemon input{
+    text-align: center;
+    height: 30px;
+    border-color:2px solid black;
+    margin-bottom: 2px;
+}
+.buscarPokemon button{
+    border-radius: 100%;
+    background-image:url("./imag/pokeball1.png");
+    background-size:100% 100%;
+    background-position-y: center;
+    background-position-x: center;
+    /*border-color: 3px solid black ;*/
+    width: 80px;
+    height: 80px;
+    align-self: center;
+    box-shadow: 1px  1px 3px 1px gray;
+    margin-bottom: 2px;
+}
+.buscarPokemon button:hover{
+    /*background-color: black;*/
+   
+    cursor:pointer;
+}
+.buscarPokemon button:active{
+    cursor:progress;
+    box-shadow:inset 1px 1px 5px 1px gray;
+    background-image:url("./imag/pokeball2.png");
+}
+.ladoDerecho{
+display: flex;
+}
+.informacion{
+    height: 150px;
+    width: 200px;
+    margin-top: 2px;
+    margin-left: 6px;
+    background-color: rgb(96, 196, 162);
+    box-shadow: inset 1px 1px 5px 2px rgba(0, 0, 0, 0.514),
+    inset 1px 1px 10px 1px white;
+    position:relative;
+    top:155px;
+}
+.informacion p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.numeroDepokemon{
+    box-shadow: inset 1px 1px 2px 1px rgba(128, 128, 128, 0.726);
+    background-color: red;
+    text-align: center;
+    color: beige;
+    width: 30%;
+    position: relative;
+    top:70%;
+    left: 65%;
+}
+.alturaDepokemon{
+    margin-top: 2%;
+    width:50%;
+    margin-left: 2%;
+}
+.pesoDepokemon{
+    margin-left: 2%;
+    position: relative;
+    top:-10%;
+    width: 50%;
+}
+.tipoDepokemon{
+    margin-left: 2%;
+    width: 50%;
+}
+.estadisticas{
+    margin-top: 2px;
+    background-color: rgb(96, 196, 162);
+    box-shadow: inset 1px 1px 5px 2px rgba(0, 0, 0, 0.514),
+    inset 1px 1px 10px 1px white;
+    height: 150px;
+    width: 200px;
+    top:155px;
+    left:5px;
+    position: relative;
+}
+.estadisticas p{
+    margin-top: 2%;
+    margin-left: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+.areaencontrar{
+    background-color: rgb(96, 196, 162);
+    box-shadow: inset 1px 1px 5px 2px rgba(0, 0, 0, 0.514),
+    inset 1px 1px 10px 1px white;
+    width: 380px;
+    height: 150px;
+    overflow:auto;
+    text-align:left;
+    padding-left:25px;
+    padding-top: 2px;
+    margin-top: 2px;
+    position:relative;
+    right:49.5%;
+}
+.areaencontrar ol{
+    margin-top: 2%;
+    color: rgb(22, 21, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}

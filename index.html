@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./stilos.css">
+        
+        <title>Pokedex</title>
+    </head>
+    <body>
+        <h1> POKEDEX LAUNCH X</h1>
+        <section class="conteneSeccion">
+            <div class="pokeiz">
+            <div class="foco"><div class="focodos"></div> </div>    
+            <div class="lineaBlanca"></div>
+            </div>
+        <div class="contenedorPrimero">
+            <div class="ladoIzquierdo">
+                <div class="buscarPokemon" id="imaPoke">
+                    <img src="./imag/pokeball.png" alt="imagen pokemon" id="pokemonImg" height="180" width="250">
+                </div>
+                <div class="buscarPokemon" id="busqueda"> 
+                    <input type="text" placeholder="ingresa nombre" name="nombrePoke" id="nombrePoke">
+                    <button id="botonbuscar" onclick="pokefecth()" alt="buscar pokemon"></button>
+                </div>
+            </div>
+            <div class="ladoDerecho">
+                <div class="informacion">
+                   <div class="alturaDepokemon"><p id="alturapoke"> </p></div> 
+                   <div class="numeroDepokemon"><p id="numeropoke"> </p> </div>
+                   <div class="pesoDepokemon"><p id="pesopoke"> </p> </div>
+                   <div class="tipoDepokemon"><p id="tipos"></p> </div>
+                </div>
+                <div class="estadisticas"><p id="stat"></p></div>
+                <div class="areaencontrar"><ol id="arealo">
+                    
+                </ol></div>
+            </div>
+        </div>
+        <div class="pokeder"><div class="foco"><div class="focodos"></div> </div>
+        <div class="lineaBlanca"></div>
+    </div>
+    </section>
+    </body>
+    <footer>
+        <script src="./pokescrips.js"> </script>  
+    </footer>
+</html>
